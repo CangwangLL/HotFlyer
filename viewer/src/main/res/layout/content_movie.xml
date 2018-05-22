@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scroll_movie"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.tianxing.hotflyer.viewer.activity.MovieActivity"
+    tools:showIn="@layout/activity_movie">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="8dp"
+        android:paddingTop="36dp">
+
+        <include
+            android:id="@+id/movie_headers"
+            layout="@layout/content_movie_headers" />
+
+        <include
+            android:id="@+id/movie_screenshots"
+            layout="@layout/content_movie_screenshots" />
+
+        <include
+            android:id="@+id/movie_actress"
+            layout="@layout/content_movie_actresses" />
+
+        <include
+            android:id="@+id/movie_genre"
+            layout="@layout/content_movie_genre" />
+    </LinearLayout>
+
+
+</android.support.v4.widget.NestedScrollView>

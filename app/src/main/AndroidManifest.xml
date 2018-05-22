@@ -3,6 +3,7 @@
     package="com.tianxing.hotlfyer">
 
     <application
+        android:name=".HotFlyApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
