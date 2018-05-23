@@ -21,6 +21,7 @@ import com.tianxing.hotflyer.viewer.fragment.DownloadFragment;
 public class DownloadActivity extends AppCompatActivity {
 
     public Toolbar mToolbar;
+    
 
     public TabLayout mTabLayout;
 
