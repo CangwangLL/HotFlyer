@@ -169,6 +169,6 @@ public class JAViewer extends Application {
     public void onCreate() {
         super.onCreate();
         CustomActivityOnCrash.install(this);
-        Fabric.with(this, new Crashlytics());
+//        Fabric.with(this, new Crashlytics());
     }
 }
