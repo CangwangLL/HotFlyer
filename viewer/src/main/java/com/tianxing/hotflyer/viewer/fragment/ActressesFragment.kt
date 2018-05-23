@@ -29,7 +29,11 @@ class ActressesFragment : RecyclerFragment<Actress, LinearLayoutManager>() {
         animator.setAddDuration(300);
         mRecyclerView.setItemAnimator(animator);*/
 
-        this.onRefreshListener = SwipeRefreshLayout.OnRefreshListener { onScrollListener!!.refresh() }
+//        this.onRefreshListener = SwipeRefreshLayout.OnRefreshListener { onScrollListener!!.refresh() }
+
+        setRefreshListener(SwipeRefreshLayout.OnRefreshListener {
+            onScrollListener!!.refresh()
+        })
 
         this.addOnScrollListener(object : EndlessOnScrollListener<Actress>() {
 

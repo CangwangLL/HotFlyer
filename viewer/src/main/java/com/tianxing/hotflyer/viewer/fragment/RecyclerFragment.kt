@@ -32,9 +32,14 @@ abstract class RecyclerFragment<I, LM : RecyclerView.LayoutManager> : Fragment()
     protected AdView mAdView;*/
 
     var onRefreshListener: SwipeRefreshLayout.OnRefreshListener? = null
-        set(listener) {
-            mRefreshLayout.setOnRefreshListener(listener)
-        }
+//        set(listener) {
+//            mRefreshLayout.setOnRefreshListener(listener)
+//        }
+
+    fun setRefreshListener(listener: SwipeRefreshLayout.OnRefreshListener?){
+        onRefreshListener = listener
+        mRefreshLayout.setOnRefreshListener(listener)
+    }
 
     var onScrollListener: BasicOnScrollListener<*>? = null
         private set

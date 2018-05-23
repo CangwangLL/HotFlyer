@@ -61,7 +61,8 @@ abstract class BasicOnScrollListener<I> : RecyclerView.OnScrollListener() {
     fun refresh() {
         isLoading = true
         reset()
-        onLoad(token = System.currentTimeMillis())
+        token = System.currentTimeMillis();
+        onLoad(token)
     }
 
     private fun onLoad(token: Long) {
