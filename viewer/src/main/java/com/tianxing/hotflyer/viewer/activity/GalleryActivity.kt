@@ -41,10 +41,6 @@ import java.io.File
 import java.io.FileOutputStream
 import java.io.IOException
 import java.io.OutputStream
-
-import butterknife.BindView
-import butterknife.ButterKnife
-
 import com.tianxing.hotflyer.viewer.JAViewer
 import com.tianxing.hotflyer.viewer.R
 import com.tianxing.hotflyer.viewer.adapter.item.Movie

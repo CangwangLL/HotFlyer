@@ -9,11 +9,6 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.ProgressBar
 
-import java.util.LinkedHashMap
-
-import butterknife.BindView
-import butterknife.ButterKnife
-
 import com.tianxing.hotflyer.viewer.JAViewer
 import com.tianxing.hotflyer.viewer.R
 import com.tianxing.hotflyer.viewer.adapter.ViewPagerAdapter

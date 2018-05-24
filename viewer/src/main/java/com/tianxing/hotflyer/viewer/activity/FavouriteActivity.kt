@@ -12,9 +12,6 @@ import android.view.MenuItem
 import com.roughike.bottombar.BottomBar
 import com.roughike.bottombar.OnTabSelectListener
 
-import butterknife.BindView
-import butterknife.ButterKnife
-
 import com.tianxing.hotflyer.viewer.R
 import com.tianxing.hotflyer.viewer.adapter.ViewPagerAdapter
 import com.tianxing.hotflyer.viewer.fragment.favourite.FavouriteActressFragment

@@ -12,12 +12,8 @@ import android.view.ViewGroup
 import android.widget.TextView
 import android.widget.Toast
 
-import butterknife.BindView
-import butterknife.ButterKnife
-
 import com.tianxing.hotflyer.viewer.R
 import com.tianxing.hotflyer.viewer.adapter.item.DownloadLink
-import com.tianxing.hotflyer.viewer.adapter.item.MagnetLink
 import com.tianxing.hotflyer.viewer.network.provider.DownloadLinkProvider
 
 import okhttp3.ResponseBody

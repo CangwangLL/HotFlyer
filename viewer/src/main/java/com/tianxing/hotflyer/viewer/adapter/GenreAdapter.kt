@@ -10,9 +10,6 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
 
-import butterknife.BindView
-import butterknife.ButterKnife
-
 import com.tianxing.hotflyer.viewer.R
 import com.tianxing.hotflyer.viewer.activity.MovieListActivity
 import com.tianxing.hotflyer.viewer.adapter.item.Genre

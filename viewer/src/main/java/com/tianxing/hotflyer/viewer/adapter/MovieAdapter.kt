@@ -13,9 +13,6 @@ import android.widget.TextView
 
 import com.bumptech.glide.Glide
 
-import butterknife.BindView
-import butterknife.ButterKnife
-
 import com.tianxing.hotflyer.viewer.R
 import com.tianxing.hotflyer.viewer.activity.MovieActivity
 import com.tianxing.hotflyer.viewer.adapter.item.Movie

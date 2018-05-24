@@ -9,7 +9,6 @@ import android.widget.ImageView
 import android.widget.TextView
 
 import com.bumptech.glide.Glide
-import butterknife.ButterKnife
 
 import com.tianxing.hotflyer.viewer.R
 import com.tianxing.hotflyer.viewer.adapter.item.Actress
@@ -66,7 +65,6 @@ class ActressAdapter(actresses: MutableList<Actress>, private val mParentActivit
             mTextName = view.findViewById(R.id.actress_name)
             mImage = view.findViewById(R.id.actress_img)
             mLayout = view.findViewById(R.id.layout_actress)
-            ButterKnife.bind(this, view)
         }
     }
 }

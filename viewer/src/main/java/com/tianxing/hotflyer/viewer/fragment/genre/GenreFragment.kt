@@ -11,9 +11,6 @@ import android.view.ViewGroup
 
 import java.util.ArrayList
 
-import butterknife.BindView
-import butterknife.ButterKnife
-
 import com.tianxing.hotflyer.viewer.JAViewer
 import com.tianxing.hotflyer.viewer.R
 import com.tianxing.hotflyer.viewer.adapter.GenreAdapter
