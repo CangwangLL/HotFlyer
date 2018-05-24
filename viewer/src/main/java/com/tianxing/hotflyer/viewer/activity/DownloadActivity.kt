@@ -70,14 +70,14 @@ class DownloadActivity : AppCompatActivity() {
             AlertDialog.Builder(this)
                     .setTitle("用得不错？")
                     .setMessage("您的支持是我动力来源！\n请考虑为我买杯咖啡醒醒脑，甚至其他…… ;)")
-                    .setPositiveButton("为我买杯咖啡") { dialog, which ->
+                    .setPositiveButton("为我买杯咖啡") { _, which ->
                         JAViewer.a(this@DownloadActivity)
                         AlertDialog.Builder(this@DownloadActivity)
                                 .setMessage("感谢您的支持！;)\n新功能持续开发中！")
                                 .setPositiveButton("确认", null)
                                 .show()
                     }
-                    .setNeutralButton("不再显示") { dialog, which -> JAViewer.CONFIGURATIONS!!.downloadCounter = -1 }
+                    .setNeutralButton("不再显示") { _, which -> JAViewer.CONFIGURATIONS!!.downloadCounter = -1 }
                     .setNegativeButton("取消", null)
                     .show()
         }

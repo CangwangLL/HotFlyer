@@ -221,12 +221,12 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
         val id = item.itemId
         idOfMenuItem = id
 
-        if (id == R.id.nav_github) {
+/*        if (id == R.id.nav_github) {
             val intent = Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/SplashCodes/JAViewer/releases"))
             intent.flags = Intent.FLAG_ACTIVITY_NEW_TASK
             startActivity(intent)
 
-        } else if (id == R.id.nav_favourite) {
+        } else*/ if (id == R.id.nav_favourite) {
             val intent = Intent(this@MainActivity, FavouriteActivity::class.java)
             startActivity(intent)
 

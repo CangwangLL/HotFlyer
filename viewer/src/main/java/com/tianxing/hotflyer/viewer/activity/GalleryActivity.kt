@@ -109,7 +109,7 @@ class GalleryActivity : AppCompatActivity() {
                 return true
             }
         })
-        mPager.setOnTouchListener { v, event ->
+        mPager.setOnTouchListener { _, event ->
             detector.onTouchEvent(event)
             false
         }

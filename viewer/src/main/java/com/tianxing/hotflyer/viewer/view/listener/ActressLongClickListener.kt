@@ -32,7 +32,7 @@ class ActressLongClickListener(private val actress: Actress, private val mActivi
             items = arrayOf("复制女优名字", "收藏")
         }
         builder.setTitle(actress.name)
-                .setItems(items) { dialog, which ->
+                .setItems(items) { _, which ->
                     when (which) {
                         0 -> {
                             val clip = mActivity.getSystemService(Context.CLIPBOARD_SERVICE) as ClipboardManager
