@@ -226,7 +226,11 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
             intent.flags = Intent.FLAG_ACTIVITY_NEW_TASK
             startActivity(intent)
 
-        } else*/ if (id == R.id.nav_favourite) {
+        } else*/
+
+        if (id ==R.id.nav_download_manager){
+            startActivity(Intent(this@MainActivity,DownloadManagerActivity::class.java))
+        }else if (id == R.id.nav_favourite) {
             val intent = Intent(this@MainActivity, FavouriteActivity::class.java)
             startActivity(intent)
 
